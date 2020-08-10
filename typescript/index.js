@@ -41,4 +41,10 @@ function hello() {
         });
     });
 }
-var url = new URL("hello");
+// Only one Value type, or more.
+var lucky = 23;
+console.log(lucky);
+lucky = '23';
+console.log(lucky);
+lucky = true;
+console.log(lucky);
